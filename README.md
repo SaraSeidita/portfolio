@@ -1,7 +1,7 @@
 # 🌸 Portfolio Personale - Sara Seidita
 
 Benvenuti nel mio portfolio personale!  
-Questo progetto è pensato per presentarmi, raccontare il mio percorso accademico e mostrare una selezione dei progetti realizzati durante l'università.
+Questo è il mio primo progetto personale, pensato per presentarmi e mostrare i linguaggi e le tecnologie web che conosco. 
 
 ## Chi sono
 
@@ -11,7 +11,7 @@ Mi chiamo **Sara Seidita** e mi sono laureata in **Informatica Umanistica** pres
 
 L'obiettivo principale di questa pagina è:
 - Presentare me stessa in modo semplice e diretto
-- Mostrare i **linguaggi e tecnologie web** che conosco
+- Mostrare i **linguaggi e le tecnologie web** che conosco
 - Raccontare i **progetti universitari e personali** a cui ho lavorato
 
 ## Tecnologie utilizzate
@@ -30,8 +30,8 @@ Il portfolio è stato realizzato utilizzando:
 - `index.php` — Pagina principale con inclusione modulare di header, scripts e altre sezioni
 - `head.php`, `scripts.php`, `navbar.php` — Componenti riutilizzabili
 - `style.css` — Stili personalizzati e temporanei per il layout
-- `script.js` — Eventuali script dinamici
-- `assets/` — Cartella per immagini e risorse visive
+- `script.js` — Script dinamici
+- `assets/` — Cartella per immagini e altre risorse
 
 ## Sezioni del sito
 
