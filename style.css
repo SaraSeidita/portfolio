@@ -1,0 +1,49 @@
+/* Barra di navigazione */
+.navbar-popone {
+    background-color: #a7e6aa; /* Verde chiaro */
+}
+
+.navbar-popone .nav-link {
+    color: #333; /* Colore del testo di default (scuro) */
+}
+
+.navbar-popone .nav-link:hover {
+    color: #5db85c; /* Verde più scuro per l'hover */
+}
+
+.navbar-popone .nav-link.active {
+    color: #388e3c; /* Verde intenso per il link attivo */
+}
+
+/* sezioni contenuto pagina TEMPORANEO */
+
+/* Distanziamento tra le sezioni */
+section {
+padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 40px; /* Distanza tra le sezioni */
+    max-width: 960px; /* Imposta una larghezza massima per il box */
+    margin-left: auto; /* Centra il box orizzontalmente */
+    margin-right: auto; /* Centra il box orizzontalmente */
+    border-radius: 8px; /* Bordo arrotondato per il box */
+    padding-left: 20px; /* Padding interno a sinistra */
+    padding-right: 20px; /* Padding interno a destra */
+
+}
+
+/* Colori di sfondo per ogni sezione */
+#home {
+background-color: #f8d7da; /* Rosso chiaro */
+}
+#chi-sono {
+background-color: #d1ecf1; /* Azzurro chiaro */
+}
+#progetti {
+background-color: #d4edda; /* Verde chiaro */
+}
+#interattivo {
+background-color: #fff3cd; /* Giallo chiaro */
+}
+#contatti {
+background-color: #f1c7b6; /* Arancione chiaro */
+}
