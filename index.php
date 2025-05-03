@@ -16,22 +16,22 @@
 
         <section id="chi-sono" class="mt-5">
             <h2>Chi sono</h2>
-            <p>Testo su di te...</p>
+            <p>Biografia da inserire</p>
         </section>
 
         <section id="progetti" class="mt-5">
             <h2>Progetti</h2>
-            <p>Lista o galleria dei progetti...</p>
+            <p>Lista o galleria dei progetti?</p>
         </section>
 
         <section id="interattivo" class="mt-5">
             <h2>Spazio interattivo</h2>
-            <p>Può essere un gioco, una demo, ecc.</p>
+            <p>Esperimenti con Javascript</p>
         </section>
 
         <section id="contatti" class="mt-5 mb-5">
             <h2>Contatti</h2>
-            <p>Indirizzo email, social, ecc.</p>
+            <p>Includo anche una form utilizzando jquery/ajax</p>
         </section>
     </main>
 
