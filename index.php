@@ -11,7 +11,7 @@
     <main class="container mt-5">
         <section id="home">
             <h1>Sezione di benvenuto</h1>
-            <p>Qui troverai i miei progetti, informazioni su di me e altro!</p>
+            <p>Da inserire qualcosa</p>
         </section>
 
         <section id="chi-sono" class="mt-5">
