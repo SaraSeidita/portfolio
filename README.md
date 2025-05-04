@@ -32,6 +32,7 @@ Il portfolio è stato realizzato utilizzando:
 - `style.css` — Stili personalizzati e temporanei per il layout
 - `script.js` — Script dinamici
 - `assets/` — Cartella per immagini e altre risorse
+- `sezioni/*` — Cartella per le pagine PHP delle sezioni del sito
 
 ## Sezioni del sito
 
