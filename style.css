@@ -16,20 +16,16 @@
 }
 
 /* sezioni contenuto pagina TEMPORANEO */
-
-/* Distanziamento tra le sezioni */
-section {
-padding-top: 80px;
-    padding-bottom: 80px;
-    margin-bottom: 40px; /* Distanza tra le sezioni */
-    max-width: 960px; /* Imposta una larghezza massima per il box */
-    margin-left: auto; /* Centra il box orizzontalmente */
-    margin-right: auto; /* Centra il box orizzontalmente */
-    border-radius: 8px; /* Bordo arrotondato per il box */
-    padding-left: 20px; /* Padding interno a sinistra */
-    padding-right: 20px; /* Padding interno a destra */
-
+.section-placeholder {
+    min-height: 300px;
+    margin-bottom: 80px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
+.section-placeholder.loaded {
+    opacity: 1;
+}
+
 
 /* Colori di sfondo per ogni sezione */
 #home {
