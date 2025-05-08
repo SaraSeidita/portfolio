@@ -1,6 +1,7 @@
 <!-- JavaScript -->
-<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="script.js"></script>
 
 
@@ -15,6 +16,8 @@ $(document).ready(function () {
             dataType: 'html',                    // Tipo di dato che ci aspettiamo. Devo ricevere l'html del contenuto
             success: function (data) {           // Funzione di successo
                 $('#main-content').html(data);  // Inserisce il contenuto caricato in #main-content
+                
+                
                 window.scrollTo({ top: 0, behavior: 'smooth' }); // Scrolla in cima
             },
             error: function (xhr, status, error) {  // Funzione in caso di errore
@@ -50,6 +53,4 @@ $(document).ready(function () {
         $('.nav-link[href="#home"]').addClass('active');
     });
 });
-
 </script>
-

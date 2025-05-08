@@ -1,0 +1,78 @@
+/* Navbar personalizzata con maggiore specificità */
+body {
+  background-color:#B5CA8D;
+}
+
+body .navbar-popone {
+    background-color: #8BB174;
+}
+
+body .navbar-popone .nav-link {
+    color: #333;
+    transition: color 0.3s;
+}
+
+body .navbar-popone .nav-link:hover {
+    color: #2A4849; /* Verde vibrante */
+}
+
+body .navbar-popone .nav-link.active {
+    color: #222E50; /* Verde foresta */
+}
+
+.home-page {
+  margin-top: 20px;
+}
+
+.home-page .card-popone {
+  width: 100%;
+  margin: 2%;
+  background-color: #B5CA8D;
+  padding: 5px;
+}
+
+
+.home-page header {
+  margin-bottom: 30px;
+}
+
+.home-page .card-img-top {
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.home-page .card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-page .profile-header {
+  padding-top: 20px;
+}
+
+.home-page .col-md-4,
+.home-page .col-md-8 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.home-page .list-group-item .badge {
+  font-size: 0.85rem;
+  color: #fff;
+  background-color: #4caf50;
+}
+
+.navbar-popone {
+  background-color: #2A4849; /* Verde salvia */
+}
+
+.home-page .list-group-item {
+  background-color: #B5CA8D;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 5px; /* Aggiungi un po' di spazio tra gli <li> */
+}
