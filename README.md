@@ -52,7 +52,8 @@ I colori di sfondo attuali sono **temporanei** e vengono utilizzati solo per tes
 - Definizione della struttura generale del sito portfolio
 - Creazione della **barra di navigazione responsive** utilizzando **CSS Bootstrap**
 - Bozza del layout con **colori distintivi per ogni sezione** (utilizzati a scopo di testing visivo)
-- Modificata la visualizzazione del contenuto (sezioni) del sito, ottenendo una visualizzazione fluida e dinamica, utilizzando jQuery e Ajax. 
+- Modificata la visualizzazione del contenuto (sezioni) del sito, ottenendo una visualizzazione fluida e dinamica, utilizzando jQuery e Ajax.
+- home.php (contenuti e stile)
 
 ---
 
