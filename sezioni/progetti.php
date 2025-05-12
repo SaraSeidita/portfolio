@@ -1,12 +1,42 @@
-<section id="progetti" class="mt-5">
-            <h2>Progetti</h2>
-            <p>Lista o galleria dei progetti?</p>
-            <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae ex hendrerit, egestas nulla ac, feugiat mi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis
-        in faucibus orci luctus et ultrices posuere cubilia curae; Integer vitae tortor nec nulla varius blandit.
-    </p>
-    <p>
-        <?php for ($i = 0; $i < 10; $i++) echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>"; ?>
-    </p>
-        </section>
+
+<body>
+
+  <div class="container mt-5">
+
+    <!-- Navbar Tabs -->
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" data-category="universita" href="#">Università</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-category="personali" href="#">Personali</a>
+      </li>
+    </ul>
+
+    <!-- Container per i progetti -->
+    <div id="project-container" class="row mt-3">
+      <!-- AJAX inserirà qui i progetti -->
+    </div>
+
+    
+  </div>
+
+  <script>
+    // Quando si clicca su una delle categorie
+    $('.nav-link').on('click', function(e) {
+      e.preventDefault();
+      let categoria = $(this).data('category');
+      
+      // Carica i progetti per la categoria selezionata
+      $('#project-container').load(`sezioni/progetti-${categoria}.php`);
+    });
+
+
+    // Carica la prima categoria all'inizio
+    $(document).ready(function() {
+      $('#project-container').load('sezioni/progetti-universita.php');
+    });
+  </script>
+
+</body>
+</html>
