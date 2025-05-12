@@ -54,6 +54,7 @@ I colori di sfondo attuali sono **temporanei** e vengono utilizzati solo per tes
 - Bozza del layout con **colori distintivi per ogni sezione** (utilizzati a scopo di testing visivo)
 - Modificata la visualizzazione del contenuto (sezioni) del sito, ottenendo una visualizzazione fluida e dinamica, utilizzando jQuery e Ajax.
 - home.php (contenuti e stile)
+- progetti.php (in lavorazione) 
 
 ---
 
